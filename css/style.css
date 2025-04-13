@@ -1,0 +1,372 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+/* =============================================*/
+
+/* ==================nav css=================== */
+nav{
+    position: absolute;
+    width: 100%;
+    top: 28px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .container .logo a{
+    display: block;
+}
+
+nav .container .menu ul{
+    display: flex;
+    column-gap: 60px;
+}
+
+nav .container .menu ul li a{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+nav .container .menu ul li a:hover{
+    color: black;
+}
+nav .container .menu ul li .active{
+    color: #000;
+}
+
+/* ==========banner part css============== */
+#banner{
+    background: url(../images/banner.jpg);
+    padding: 462px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .container p{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+#banner .container h1{
+    color: #ffff;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+    width: 860px;
+}
+
+#banner .container h1 span{
+    color: #ffff;
+    font-size: 88px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+
+/* =========holiday part css============= */
+
+#holiday_part{
+    padding-top: 319px;
+    background-color: #000;
+}
+
+#holiday_part .container {
+    display: flex;
+    column-gap: 23px;
+}
+
+#holiday_part .container .child{
+    width: 50%; 
+}
+
+#holiday_part .container .child img{
+    width: 100%;
+}
+
+#holiday_part .container .child span{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+    display: inline-block;
+    margin: 45px 0 13px;
+}
+
+#holiday_part .container .child h2{
+    width: 496px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+#holiday_part .container .child p{
+    width: 587px;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+}
+
+#holiday_part .container .child a{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 105px;
+}
+
+/* ============bromo part css============ */
+#bromo_part{
+    padding-top: 358px;
+    background-color: #000;
+}
+#bromo_part .container{
+    background-image: url(../images/bromo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 559px 0 32px;
+    text-align: center;
+}
+
+#bromo_part .container span{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+#bromo_part .container h2{
+    color: #ffff;
+    font-size: 64px;
+    font-weight: 700px;
+    width: 932px;
+    text-transform: uppercase;
+    margin: 13px auto;
+}
+
+#bromo_part .container p{
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400px;
+    width: 893px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0 auto 27px;
+}
+
+#bromo_part .container a{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* ============culture part css============ */
+
+#culture_part{
+    padding-top: 319px;
+    background-color: #000;
+}
+
+#culture_part .container {
+    display: flex;
+    column-gap: 23px;
+}
+
+#culture_part .container .child{
+    width: 50%; 
+}
+
+#culture_part .container .child img{
+    width: 100%;
+}
+
+#culture_part .container .child span{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+    display: inline-block;
+    margin: 153px 0 19px;
+}
+
+#culture_part .container .child h2{
+    width: 663px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+#culture_part .container .child p{
+    width: 665px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 47px;
+}
+
+#culture_part .container .child a{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 154px;
+}
+
+/* ============footer part css ================*/
+
+footer{
+    background-color: #000;
+    padding-top: 199px;
+    padding-bottom: 30px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .left h2{
+    width: 405px;
+    color: #ffff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin: 82px 0 48px;
+    text-transform: capitalize;
+}
+
+
+footer .container .left .terms{
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-bottom: 35px;
+}
+
+footer .container .left .icon {
+    display: flex;
+    column-gap: 29px;
+}
+footer .container .left .icon a{
+    color: #ffff;
+}
+
+footer .container .right .top{
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    justify-content: flex-end;
+    margin-bottom: 58px;
+}
+
+footer .container .right .top h2{
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+
+}
+
+footer .container .right .top button{
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #FFA343;
+    padding: 18px 67px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+footer .container .right .bottom{
+    display: flex;
+}
+
+footer .container .right .bottom ul{
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+    text-transform: capitalize;
+}
+
+footer .container .right .bottom ul li a{
+    color: #ffff;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px ;
+}
+
+footer .container .right .bottom ul:nth-child(2){
+    margin: 0 139px 0 84px;
+}
+
+footer .copyright{
+    color: #ffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 153px 0;
+}
+
+
+
